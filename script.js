@@ -1,20 +1,30 @@
 const dino = document.querySelector('.dino');
-
-function ligarKeyUp(event) {
-    if (event.KeyCode === 32) {
-        console.log('Pressionou espaço!');
+function handleKeup(event){
+    if(event.keyCode ===32){
+        jump();
     }
-
-
 }
 
-function Jump(){
+function jump(){
     let position = 0;
+    let upInterval =setInterval(()=>{
+        if(position >= 150){
+            clearInterval(upInterval);
 
-    let upInterval = setInterval(() => {
-       
-        
-    },20 );
-}
+            let downinterval = setInterval(()=>{
+                if (position += 0){
+                    clearInterval(downinterval);
+                }else{
+                    position -= 20;
+                    dino.style.bottom =position +'px';
+                }
 
-document.addEventListener('keyup', ligarKeyUp);
+                },20);
+            }else{
+
+                position += 20;
+                dino.style.bottom = position +'px';
+            }
+        },20);
+    }
+document.addEventListener('keyup',handleKeup);

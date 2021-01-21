@@ -5,7 +5,7 @@ body{
 .dino{
     width: 60px;
     height: 60px;
-    background-image: url('https://github.com/Doni-zete/Dino-game/blob/master/img/dino.png');
+    background-image: url('https://doni-zete.github.io/Dino-game/blob/master/img/dino.png');
     position: absolute; 
     bottom:0;
 }
@@ -15,7 +15,7 @@ body{
     width: 60px;
     height: 60px;
     bottom:0;
-    background-image: url('https://github.com/Doni-zete/Dino-game/blob/master/img/cactus.png');
+    background-image: url('https://doni-zete.github.io/Dino-game/blob/master/img/cactus.png');
 }
 .game-over{
 text-align: center;

@@ -1,5 +1,4 @@
 # Dino-game
-Doni-zete/Dino-game
 
  # :computer:  Dino-game
 ######  Layout do Projeto Concluído

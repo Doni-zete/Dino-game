@@ -7,7 +7,7 @@ Doni-zete/Dino-game
 
 ## :rocket: Sobre o projeto
 
-Projeto feito no Bootcamp da [Digital Innovation One](https://web.digitalinnovation.one/track/everis-fullstack-developer) que consiste na recriação do joguinho offline do google chrome 
+Projeto feito no Bootcamp da [Digital Innovation One](https://web.digitalinnovation.one/track/gft-start_uni-2021-1?tab=pathr) que consiste na recriação do joguinho offline do google chrome 
 
 :hammer_and_wrench: **Tecnologias e ferramentas Utilizadas**
 * HTML5
